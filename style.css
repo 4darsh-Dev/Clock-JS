@@ -75,6 +75,23 @@ li a{
 .btn:hover{
     background-color: #314d4f;
     color: white;
+    cursor: pointer;
+}
+.btn-clicked{
+    background-color: #314d4f;
+    color: white;
+
+}
+.btn-released{
+    color:black;
+    background-color: #a9b8b9;
+}
+/* #dg{
+    background-color: #314d4f;
+    color:white;
+} */
+.d-none{
+    display: none;
 }
 .title{
     font-size: 22px;
@@ -120,13 +137,6 @@ td{
 }
 
 
-#dg{
-    background-color: #314d4f;
-    color:white;
-}
-.d-none{
-    display: none;
-}
 .clock-dial{
     width: 300px;
     height: 300px;
@@ -257,4 +267,59 @@ td{
     position: absolute;
     left: 95px;
     top: -6px;
+}
+
+.hour-hand-wrapper{
+    width: 200px;
+    height: 200px;
+    /* background-color: #314d4f; */
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right:50px;
+}
+.hour-hand{
+    position: relative;
+
+}
+.hour-hand .hand{
+    width: 4px;
+    height: 50px;
+    background-color: #314d4f;
+    position: absolute;
+    left: 98px;
+    top: 045px;
+
+}
+.hour-hand .arrow{
+    font-family: sans-serif, monospace;
+    font-size: 17px;
+    color: #314d4f;
+    font-weight: bold;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 94px;
+    top: 38px;
+}
+.second-hand-wrapper{
+    width: 250px;
+    height: 250px;
+    /* background-color: #314d4f; */
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    right:25px;
+}
+.second-hand{
+    position: relative;
+
+}
+.second-hand .hand{
+    width: 1px;
+    height: 115px;
+    background-color: #314d4f;
+    position: absolute;
+    left: 125px;
+    top: 10px;
+
 }
