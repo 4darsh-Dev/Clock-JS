@@ -1,6 +1,4 @@
-console.log("I am working! ");
-
-
+// Author -- Adarsh Maurya
 
 let elem = document.getElementsByClassName("time-box-para")[0];
 
@@ -32,4 +30,29 @@ const updateFunc = function(){
     
 }
 updateFunc();
+
+let digiBox = document.getElementById("digi-box");
+let agBox = document.getElementById("ag-box");
+let agBtn = document.getElementById("ag");
+let dgBtn = document.getElementById("dg");
+
+
+const changeCl = function(){
+    digiBox.classList.add("d-none");
+    agBox.classList.remove("d-none");
+    dgBtn.classList.remove("btn-clicked");
+    agBtn.classList.add("btn-clicked");
+}
+const changeCl2 = function(){
+    agBox.classList.add("d-none");
+    digiBox.classList.remove("d-none");
+    dgBtn.classList.toggle("btn-clicked");
+    agBtn.classList.toggle("btn-clicked");
+}
+
+agBtn.addEventListener("click", changeCl )
+
+dgBtn.addEventListener("click", changeCl2)
+
+
 
