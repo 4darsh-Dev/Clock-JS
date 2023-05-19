@@ -1,3 +1,5 @@
+<!-- Author -- Adarsh Maurya -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,19 +24,19 @@
 
             <div class="mode">
                 <div class="switch">
-                    <button class="btn" id="dg">Digital</button>
+                    <button class="btn btn-clicked" id="dg">Digital</button>
                     <button class="btn" id="ag">Analog</button>
                 </div>
             </div>
             <div class="clock-box dp-block s-cont">
 
-               <div style="display:none;" id="digi-box" class="time-box font-c">
+               <div  id="digi-box" class="time-box font-c">
                 <p class="time-box-para">
 
                 </p>
 
                </div>
-               <div id="ag-box">
+               <div id="ag-box" class="d-none">
                 <div class="clock-dial">
                     <div class="point"></div>
                     <div class="hour hour-1">1</div>
@@ -51,10 +53,23 @@
                     <div class="hour hour-12">12</div>
                     <div class="brand">Clocky</div>
 
-                    <div class="minute-hand-wrapper">
+                    <div class="minute-hand-wrapper" id="minute-hand">
                         <div class="minute-hand">
                             <div class="hand"></div>
                             <div class="arrow">V</div>
+                        </div>
+                    </div>
+                   
+                    <div class="hour-hand-wrapper" id="hour-hand">
+                        <div class="hour-hand">
+                            <div class="hand"></div>
+                            <div class="arrow">V</div>
+                        </div>
+                    </div>
+                    <div class="second-hand-wrapper" id="second-hand">
+                        <div class="second-hand">
+                            <div class="hand"></div>
+                          
                         </div>
                     </div>
                    
