@@ -118,3 +118,143 @@ td{
     justify-content: center;
     align-items: center;
 }
+
+
+#dg{
+    background-color: #314d4f;
+    color:white;
+}
+.d-none{
+    display: none;
+}
+.clock-dial{
+    width: 300px;
+    height: 300px;
+    border: 6px solid #2CD3E1;
+    border-radius: 50% ;
+    position: relative;
+
+}
+.point{
+    background-color: #314d4f;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 144px;
+    right: 144px;
+}
+.hour{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif, monospace;
+    color:#314d4f;
+}
+.hour-1{
+    position: absolute;
+    top: 28px;
+    right: 83px;
+}
+.hour-2{
+    position: absolute;
+    top: 72px;
+    right: 37px;
+}
+.hour-3{
+    position: absolute;
+    top: 133px;
+    right: 14px;
+}
+
+.hour-4{
+    position: absolute;
+    top: 195px;
+    right: 29px;
+}
+.hour-5{
+    position: absolute;
+    top: 248px;
+    right: 70px;
+}
+.hour-6{
+    position: absolute;
+    top: 267px;
+    right: 140px;
+}
+.hour-7{
+    position: absolute;
+    top: 246px;
+    right: 209px;
+}
+.hour-8{
+    position: absolute;
+    top: 199px;
+    right: 255px;
+}
+.hour-9{
+    position: absolute;
+    top: 140px;
+    right: 272px;
+}
+.hour-10{
+    position: absolute;
+    top: 75px;
+    right: 250px;
+}
+.hour-11{
+    position: absolute;
+    top: 28px;
+    right: 204px;
+}
+.hour-12{
+    position: absolute;
+    top: 24px;
+    right: 204px;
+}
+.hour-12{
+    position: absolute;
+    top: 8px;
+    right: 136px;
+}
+
+.brand{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    color: #2CD3E1;
+    left: 38.9%;
+    top: 56px;
+}
+
+.minute-hand-wrapper{
+    width: 200px;
+    height: 200px;
+    /* background-color: #314d4f; */
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right:50px;
+}
+.minute-hand{
+    position: relative;
+
+}
+.minute-hand .hand{
+    width: 3px;
+    height: 100px;
+    background-color: #314d4f;
+    position: absolute;
+    left: 99px;
+    top: 0px;
+
+}
+.minute-hand .arrow{
+    font-family: sans-serif, monospace;
+    font-size: 16px;
+    color: #314d4f;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 95px;
+    top: -6px;
+}
